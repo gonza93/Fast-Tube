@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background_dialog"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceListItem"
+        android:text="@string/radius_title"/>
+
+    <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:dsb_indicatorColor="@color/accentColor"
+        app:dsb_progressColor="@color/accentColor"
+        app:dsb_min="2"
+        app:dsb_max="15" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:id="@+id/radiusValueLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp">
+
+            <TextView
+                android:id="@+id/radiusValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:text="10000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:textSize="16sp"
+                android:text="@string/discover_dialog_meters"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/dialogDiscoverCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/accentColor"
+            android:background="?android:selectableItemBackground"
+            android:textAppearance="?android:textAppearanceListItem"
+            android:layout_toLeftOf="@+id/dialogDiscoverOk"
+            android:layout_toStartOf="@+id/dialogDiscoverOk"/>
+
+        <TextView
+            android:id="@+id/dialogDiscoverOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/accentColor"
+            android:layout_marginRight="35dp"
+            android:layout_marginEnd="35dp"
+            android:background="?android:selectableItemBackground"
+            android:textAppearance="?android:textAppearanceListItem"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

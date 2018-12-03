@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainCoordinator"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:id="@+id/playlistItemsHeaderLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/channelHeader"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/playlistItemsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/playlistItemsChannelTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/playlistItemsInfo"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:tint="@color/accentColor"
+                    android:background="?android:selectableItemBackground"
+                    android:src="@drawable/ic_info"/>
+
+                <ImageView
+                    android:id="@+id/playlistItemsShare"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:tint="@color/accentColor"
+                    android:background="?android:selectableItemBackground"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_share"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/playlistItemsVideoCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/playlistItemsHeaderLayout"
+            android:layout_margin="15dp"
+            android:textAppearance="?android:textAppearanceListItem"/>
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/playlistItemsFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/ic_play"
+        android:visibility="invisible"
+        app:layout_anchor="@id/playlistItemsHeaderLayout"
+        app:layout_anchorGravity="bottom|end"/>
+
+</android.support.design.widget.CoordinatorLayout>

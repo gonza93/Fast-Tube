@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="darkPrimaryColor">#dfdfdf</color>
+    <color name="primaryColor">#FFFFFF</color>
+    <color name="accentColor">#ed4946</color>
+
+    <color name="toolbarSeparator">#99bfbfbf</color>
+
+    <color name="tabTextColor">#acacac</color>
+    <color name="tabUnselected">#a9a4a4</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="whiteAlpha">#97FFFFFF</color>
+    <color name="colorText">#000000</color>
+
+    <color name="colorNoThumbnail">#AEAEAE</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="channelHeader">#e1e4e6</color>
+
+    <color name="playlistBackground">#90000000</color>
+    <color name="trendBackground">#95F44336</color>
+    <color name="videoBackground">#ebeded</color>
+    <color name="durationBackground">#99000000</color>
+
+    <color name="adBackground">#40A0A0A0</color>
+    <color name="searchBar">#bbe2e2e2</color>
+    <color name="searchBarBorder">#b1dedede</color>
+    <color name="searchBarText">#616161</color>
+    <color name="searchBarHint">#999999</color>
+
+    <color name="dialogColor">#008F80</color>
+    <color name="videoInfo_text">#5397d1</color>
+
+    <color name="background_gray">#dadada</color>
+
+
+    <color name="almost_black">#232323</color>
+    <color name="back_button_color">#737373</color>
+
+
+</resources>

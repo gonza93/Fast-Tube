@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:clickable="true"
+    android:background="?android:attr/selectableItemBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <RelativeLayout
+            android:id="@+id/layoutThumbnail"
+            android:layout_width="wrap_content"
+            android:layout_height="105dp">
+
+            <ImageView
+                android:id="@+id/videoThumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="105dp"/>
+
+            <TextView
+                android:id="@+id/videoDuration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="9dp"
+                android:textColor="@color/white"
+                android:padding="3dp"
+                android:background="@color/durationBackground"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_below="@+id/layoutThumbnail"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/videoTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:textAppearance="?android:textAppearanceListItem"
+                android:textSize="13sp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/videoChannel"
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textSize="10sp"/>
+
+                <TextView
+                    android:id="@+id/videoViews"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textSize="10sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>

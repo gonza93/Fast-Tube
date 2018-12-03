@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginTop="15dp"
+    android:background="?android:selectableItemBackground">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/channelThumb"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/channelThumb"
+        android:layout_toEndOf="@+id/channelThumb"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/channelTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:textAppearance="?android:textAppearanceListItem"/>
+
+        <TextView
+            android:id="@+id/channelVideos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:textSize="15sp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <TextView
+            android:id="@+id/channelSubs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:textSize="15sp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

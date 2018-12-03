@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fast Tube</string>
+
+    <string name="action_settings">Acerca de</string>
+    <string name="action_search">Buscar vídeos...</string>
+    <string name="action_premium">Sin publicidad</string>
+
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+    <string name="drawer_item_myvideos">My Videos</string>
+    <string name="drawer_notlogged_name">Not logged in</string>
+    <string name="drawer_login">Press here to log in</string>
+
+    <string name="channel_subcount">Suscriptores:</string>
+    <string name="channel_popular">Más populares</string>
+    <string name="channel_liked">Videos gustados</string>
+    <string name="channel_about">Acerca de</string>
+
+    <string name="subs">suscriptores</string>
+    <string name="views">vistas</string>
+
+    <string name="maps_api_release">AIzaSyA9qg4k0qrWnzWyCXXTNA0rKkA4TWTRcuo</string>
+    <string name="maps_api_debug">AIzaSyA9qg4k0qrWnzWyCXXTNA0rKkA4TWTRcuo</string>
+
+    <string name="header_location">Videos cerca al área seleccionada</string>
+    <string name="discover_help">Tocar en cualquier parte del mapa para obtener una lista de videos relacionados con esa zona</string>
+
+    <string name="banner_ad_unit_id_search">ca-app-pub-4686726862174799/5958353065</string>
+    <string name="banner_ad_unit_id_channel">ca-app-pub-4686726862174799/7435086267</string>
+    <string name="banner_ad_unit_id_location">ca-app-pub-4686726862174799/8911819460</string>
+    <string name="published_on">Publicado en</string>
+
+    <string name="facebook_app_id">198466433884231</string>
+    <string name="facebook_placement_id_discover">198466433884231_198486173882257</string>
+    <string name="facebook_placement_id_search">198466433884231_198494703881404</string>
+    <string name="facebook_placement_id_channel">198466433884231_198499097214298</string>
+
+    <string name="location_warn">No hay videos para la zona seleccionada</string>
+
+    <string name="share_label">Elegir uno</string>
+    <string name="radius_title">Tamaño del radio de la zona</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+
+    <string name="tab_home">Inicio</string>
+    <string name="tab_search">Buscar</string>
+    <string name="tab_discover">Descubre</string>
+    <string name="tab_videos">Videos</string>
+    <string name="tab_channels">Canales</string>
+    <string name="tab_playlists">Playlists</string>
+    <string name="tab_about">Acerca</string>
+
+    <string name="settings_desc">
+        Redix es una empresa dedicada al desarrollo de software. Visite nuestro
+        profile en Google Play Store para ver todas nuestras apps.
+    </string>
+    <string name="settings_desc2">Todas nuestras aplicaciones están hechas por el resultado de
+    mucha investigación y estudio dentro de las tecnologías actuales. Por favor, vea el link de abajo.</string>
+    <string name="company_name">Redix</string>
+    <string name="company_tag">Innovación para vivir</string>
+    <string name="playstore">Link a Playstore</string>
+
+    <string name="video_share">Compartir</string>
+    <string name="video_open">Open in YouTube</string>
+
+    <string name="subscribe">Más info</string>
+
+    <string name="discover_dialog_meters">metros</string>
+
+    <string name="error">No hay videos disponibles</string>
+</resources>

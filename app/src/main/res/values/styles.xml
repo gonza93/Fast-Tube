@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/darkPrimaryColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+    </style>
+
+    <style name="CustomActionBar" parent="@style/AppTheme">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColorSecondary">@android:color/black</item>
+    </style>
+
+    <style name="tabText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/gonzalo/Desktop/Fast Tube Android/app/libs/google-api-client-1.21.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="16a6b3c680f3bf7b81bb42790ff5c1b72c5bbedc">
+        <dex dex="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/transforms/dex/debug/folders/1000/2/google-api-client-1.21.0_a44ccc027643f0f1011f9cd72ac111e508993fea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gonzalo/Desktop/Fast Tube Android/app/libs/google-oauth-client-1.21.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="481c5c2eb066671ce16088987101f24a14534f3b">
+        <dex dex="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/transforms/dex/debug/folders/1000/2/google-oauth-client-1.21.0_0cf77665ac7891bb8593335dc9ea6485b945610c/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gonzalo/Desktop/Fast Tube Android/app/libs/google-api-client-1.21.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="16a6b3c680f3bf7b81bb42790ff5c1b72c5bbedc">
+        <dex dex="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/pre-dexed/debug/google-api-client-1.21.0_a44ccc027643f0f1011f9cd72ac111e508993fea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gonzalo/Desktop/Fast Tube Android/app/libs/google-api-services-youtube-v3-rev162-1.21.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="61871f1675228cb7e2af8c5c5496978add900f06">
+        <dex dex="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/pre-dexed/debug/google-api-services-youtube-v3-rev162-1.21.0_7ab3cc20bbdd335fcf2680653e2e32df9cf664d3.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gonzalo/Desktop/Fast Tube Android/app/libs/google-api-services-youtube-v3-rev162-1.21.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="61871f1675228cb7e2af8c5c5496978add900f06">
+        <dex dex="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/transforms/dex/debug/folders/1000/2/google-api-services-youtube-v3-rev162-1.21.0_7ab3cc20bbdd335fcf2680653e2e32df9cf664d3/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gonzalo/Desktop/Fast Tube Android/app/libs/google-http-client-android-1.21.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3bbb3e20e50c801145e37600650c9e1202e44e04">
+        <dex dex="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/pre-dexed/debug/google-http-client-android-1.21.0_0ac5dc24db4bbc439d601becf035bd4c3a6a3836.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="80baa0cebde762138e746073da23a411e9631777">
+        <dex dex="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_67d6c0d425887b8bd71b08a7e398b290606418ac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3c73461dd24ef9feb64ae7cda3eca8f55f3510ba/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gonzalo/Desktop/Fast Tube Android/app/libs/svg-android-1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9f7c80e87e9925b691875dc9388869d87515f7d2">
+        <dex dex="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/pre-dexed/debug/svg-android-1.1_04cd9c2fb9db69d5d64459b212f98fadcb1e8810.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gonzalo/Desktop/Fast Tube Android/app/libs/svg-android-1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9f7c80e87e9925b691875dc9388869d87515f7d2">
+        <dex dex="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/transforms/dex/debug/folders/1000/2/svg-android-1.1_04cd9c2fb9db69d5d64459b212f98fadcb1e8810/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gonzalo/Desktop/Fast Tube Android/app/libs/google-oauth-client-1.21.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="481c5c2eb066671ce16088987101f24a14534f3b">
+        <dex dex="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/pre-dexed/debug/google-oauth-client-1.21.0_0cf77665ac7891bb8593335dc9ea6485b945610c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gonzalo/Desktop/Fast Tube Android/app/libs/jackson-core-2.1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/pre-dexed/debug/jackson-core-2.1.3_549d96b83165f2d14be6b4056ae17b601d64e5cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gonzalo/Desktop/Fast Tube Android/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi_5c6f2f53829b3e1348bbaeddd2849feef66d380f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gonzalo/Desktop/Fast Tube Android/app/libs/google-http-client-jackson2-1.21.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="14786f5d05b04365f0c578d0e810dd555f07f295">
+        <dex dex="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/transforms/dex/debug/folders/1000/2/google-http-client-jackson2-1.21.0_c25c34595ed42b69689385594254cf4c2a193e6a/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gonzalo/Desktop/Fast Tube Android/app/libs/google-api-client-android-1.21.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e46e63530f04ce8e7133423d6857c633d203e340">
+        <dex dex="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/pre-dexed/debug/google-api-client-android-1.21.0_72b0c00fd7eda83e70ed779ee0ca78f996089faf.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gonzalo/Desktop/Fast Tube Android/app/libs/google-api-client-android-1.21.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e46e63530f04ce8e7133423d6857c633d203e340">
+        <dex dex="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/transforms/dex/debug/folders/1000/2/google-api-client-android-1.21.0_72b0c00fd7eda83e70ed779ee0ca78f996089faf/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gonzalo/Desktop/Fast Tube Android/app/libs/joda-time-2.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="56498efd17752898cfcc3868c1b6211a07b12b8f">
+        <dex dex="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/pre-dexed/debug/joda-time-2.3_10b848e4e93e4b6e2978853f0055011f9ba49990.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gonzalo/Desktop/Fast Tube Android/app/libs/google-http-client-jackson2-1.21.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="14786f5d05b04365f0c578d0e810dd555f07f295">
+        <dex dex="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/pre-dexed/debug/google-http-client-jackson2-1.21.0_c25c34595ed42b69689385594254cf4c2a193e6a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gonzalo/Desktop/Fast Tube Android/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/transforms/dex/debug/folders/1000/2/YouTubeAndroidPlayerApi_5c6f2f53829b3e1348bbaeddd2849feef66d380f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gonzalo/Desktop/Fast Tube Android/app/libs/jackson-core-2.1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/transforms/dex/debug/folders/1000/2/jackson-core-2.1.3_549d96b83165f2d14be6b4056ae17b601d64e5cd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gonzalo/Desktop/Fast Tube Android/app/libs/joda-time-2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="56498efd17752898cfcc3868c1b6211a07b12b8f">
+        <dex dex="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/transforms/dex/debug/folders/1000/2/joda-time-2.3_10b848e4e93e4b6e2978853f0055011f9ba49990/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gonzalo/Desktop/Fast Tube Android/app/libs/google-http-client-android-1.21.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3bbb3e20e50c801145e37600650c9e1202e44e04">
+        <dex dex="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/transforms/dex/debug/folders/1000/2/google-http-client-android-1.21.0_0ac5dc24db4bbc439d601becf035bd4c3a6a3836/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gonzalo/Desktop/Fast Tube Android/app/libs/google-http-client-1.21.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8586fd6b4a11cd146d611cfe9c2cb43bddd62f4f">
+        <dex dex="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/transforms/dex/debug/folders/1000/2/google-http-client-1.21.0_e0dabe3e599e0d47f70d90b98eb17cc453435320/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gonzalo/Desktop/Fast Tube Android/app/libs/google-http-client-1.21.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8586fd6b4a11cd146d611cfe9c2cb43bddd62f4f">
+        <dex dex="/Users/gonzalo/Desktop/Fast Tube Android/app/build/intermediates/pre-dexed/debug/google-http-client-1.21.0_e0dabe3e599e0d47f70d90b98eb17cc453435320.jar" />
+    </item>
+
+</items>

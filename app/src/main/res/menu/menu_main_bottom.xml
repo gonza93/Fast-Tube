@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/tab_home"
+        android:enabled="true"
+        android:icon="@mipmap/ic_main_home"
+        android:title="@string/tab_home"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/tab_search"
+        android:enabled="true"
+        android:icon="@mipmap/ic_action_search_b"
+        android:title="@string/tab_search"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/tab_discover"
+        android:enabled="true"
+        android:icon="@mipmap/ic_main_discover"
+        android:title="@string/tab_discover"
+        app:showAsAction="ifRoom" />
+</menu>

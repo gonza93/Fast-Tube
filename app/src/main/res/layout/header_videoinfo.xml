@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/scrollableLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:padding="5dp"
+                android:background="@drawable/background_list_video">
+
+                <LinearLayout
+                    android:id="@+id/layoutVideoInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="?android:selectableItemBackground"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/videoInfoTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="7dp"
+                        android:text="Hola esto es una gran prueba jajaja wolololo"
+                        android:textSize="19sp"
+                        android:textAppearance="?android:textAppearanceLarge"/>
+
+                    <ImageView
+                        android:id="@+id/videoInfoArrow"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_weight="7"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_down"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/videoInfoDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:visibility="gone"
+                    android:layout_margin="5dp"
+                    android:layout_below="@+id/layoutVideoInfo"/>
+
+                <TextView
+                    android:id="@+id/videoInfoViewCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/videoInfoDesc"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:textAppearance="?android:textAppearanceSmall"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/videoInfoViewCount">
+
+                    <LinearLayout
+                        android:id="@+id/likeLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ProgressBar
+                            android:id="@+id/likeMeter"
+                            android:indeterminate="false"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:progressTint="@color/videoInfo_text"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <LinearLayout
+                            android:id="@+id/meterLayout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="5dp">
+
+                            <ImageView
+                                android:id="@+id/videoLikeIcon"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginEnd="5dp"
+                                android:src="@drawable/ic_like" />
+
+                            <TextView
+                                android:id="@+id/videoLikeCount"
+                                android:textColor="@color/videoInfo_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginEnd="10dp"
+                                android:layout_gravity="center"/>
+
+                            <ImageView
+                                android:id="@+id/videoDislikeIcon"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginStart="10dp"
+                                android:src="@drawable/ic_dislike" />
+
+                            <TextView
+                                android:id="@+id/videoDislikeCount"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/shareLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="3"
+                        android:orientation="horizontal"
+                        android:background="?android:selectableItemBackground">
+
+                    <TextView
+                        android:id="@+id/shareLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="16sp"
+                        android:textColor="@color/videoInfo_text"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginEnd="3dp"
+                        android:textAppearance="?android:textAppearanceListItem"
+                        android:text="@string/video_share" />
+
+                    <ImageView
+                        android:id="@+id/videoShare"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_send" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/videoInfoChannelLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp"
+                android:padding="2dp"
+                android:background="@drawable/background_list_video">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/videoInfoChannelThumb"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"/>
+
+                <LinearLayout
+                    android:id="@+id/videoChannelInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_toRightOf="@+id/videoInfoChannelThumb"
+                    android:layout_toEndOf="@+id/videoInfoChannelThumb"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/videoChannelTitle"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/videoChannelSubsCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceSmall"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/videoSubscribeIcon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_toLeftOf="@+id/videoSubscribe"
+                    android:layout_toStartOf="@+id/videoSubscribe"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_subscribe"/>
+
+                <TextView
+                    android:id="@+id/videoSubscribe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/subscribe"/>
+
+                <TextView
+                    android:id="@+id/aux"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="?android:selectableItemBackground"
+                    android:clickable="true"/>
+
+            </RelativeLayout>
+
+
+    <!--<FrameLayout
+        android:id="@+id/fl_adplaceholder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"/>-->
+
+</LinearLayout>

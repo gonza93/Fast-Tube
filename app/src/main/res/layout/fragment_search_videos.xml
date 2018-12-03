@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/progressSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        ads:indicatorColor="@color/accentColor"
+        ads:indicatorName="BallClipRotatePulseIndicator"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adView"
+        android:paddingBottom="50dp"
+        android:clipToPadding="false"/>
+
+    <include
+        android:id="@+id/error_message"
+        android:visibility="gone"
+        layout="@layout/include_error"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id_search">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

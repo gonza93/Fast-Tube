@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Fast Tube</string>
+
+    <string name="action_settings">About</string>
+    <string name="action_search">Search videos...</string>
+    <string name="action_premium">No ads</string>
+
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+    <string name="drawer_item_myvideos">My Videos</string>
+    <string name="drawer_notlogged_name">Not logged in</string>
+    <string name="drawer_login">Press here to log in</string>
+
+    <string name="channel_subcount">Subscribers:</string>
+    <string name="channel_popular">Most Popular</string>
+    <string name="channel_liked">Liked Videos</string>
+    <string name="channel_about">About</string>
+
+    <string name="subs">subscribers</string>
+    <string name="views">views</string>
+
+    <string name="maps_api_release">AIzaSyA9qg4k0qrWnzWyCXXTNA0rKkA4TWTRcuo</string>
+    <string name="maps_api_debug">AIzaSyA9qg4k0qrWnzWyCXXTNA0rKkA4TWTRcuo</string>
+
+    <string name="header_location">Videos near the selected spot</string>
+    <string name="discover_help">Tap anywhere on the map to get a list of videos related to that zone</string>
+
+    <string name="banner_ad_unit_id_search">ca-app-pub-4686726862174799/5958353065</string>
+    <string name="banner_ad_unit_id_channel">ca-app-pub-4686726862174799/7435086267</string>
+    <string name="banner_ad_unit_id_location">ca-app-pub-4686726862174799/8911819460</string>
+    <string name="published_on">Published on</string>
+
+    <string name="facebook_app_id">198466433884231</string>
+    <string name="facebook_placement_id_discover">198466433884231_198486173882257</string>
+    <string name="facebook_placement_id_search">198466433884231_198494703881404</string>
+    <string name="facebook_placement_id_channel">198466433884231_198499097214298</string>
+
+    <string name="location_warn">No available videos in the selected zone</string>
+
+    <string name="share_label">Choose one</string>
+    <string name="radius_title">Radius size of the selected zone</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+
+    <string name="tab_home">Home</string>
+    <string name="tab_search">Search</string>
+    <string name="tab_discover">Discover</string>
+    <string name="tab_videos">Videos</string>
+    <string name="tab_channels">Channels</string>
+    <string name="tab_playlists">Playlists</string>
+    <string name="tab_about">About</string>
+
+    <string name="settings_desc">Redix is a company dedicated to software development. Visit our
+        Google Play Store profile to see all of our apps.
+    </string>
+    <string name="settings_desc2">All our apps are the result of lots of research and deep study in
+    the current software technology. Please check out the link below.</string>
+    <string name="company_name">Redix</string>
+    <string name="company_tag">Innovation to live</string>
+    <string name="playstore">Playstore link</string>
+
+    <string name="video_share">Share</string>
+    <string name="video_open">Open in YouTube</string>
+
+    <string name="subscribe">More info</string>
+
+    <string name="discover_dialog_meters">meters</string>
+
+    <string name="error">There are no videos available</string>
+
+</resources>
